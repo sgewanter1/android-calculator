@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/content_main"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/operatorButtonColor">
+
+        <Button
+            android:id="@+id/clear_all"
+            style="@style/opsCardStyle"
+            android:text="@string/clear_all"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/clear_error"
+            android:onClick="clearAll"
+            />
+
+        <Button
+            android:id="@+id/clear_error"
+            style="@style/opsCardStyle"
+            android:text="@string/clear_error"
+            app:layout_constraintTop_toTopOf="@+id/clear_all"
+            app:layout_constraintBottom_toBottomOf="@+id/clear_all"
+            app:layout_constraintStart_toEndOf="@+id/clear_all"
+            app:layout_constraintEnd_toStartOf="@+id/square"
+            android:onClick="clear"
+            />
+
+        <Button
+            android:id="@+id/square"
+            style="@style/opsCardStyle"
+            android:text="@string/square"
+            android:textStyle="italic"
+            app:layout_constraintTop_toTopOf="@+id/clear_all"
+            app:layout_constraintBottom_toBottomOf="@+id/clear_all"
+            app:layout_constraintStart_toEndOf="@+id/clear_error"
+            app:layout_constraintEnd_toStartOf="@+id/negate" />
+
+
+        <Button
+            android:id="@+id/negate"
+            style="@style/opsCardStyle"
+            android:text="@string/negate"
+            app:layout_constraintTop_toTopOf="@+id/clear_all"
+            app:layout_constraintBottom_toBottomOf="@+id/clear_all"
+            app:layout_constraintStart_toEndOf="@+id/square"
+            app:layout_constraintEnd_toStartOf="@id/add"
+            android:onClick="negate"/>
+
+        <Button
+            android:id="@+id/add"
+            style="@style/opsCardStyle"
+            android:text="@string/add"
+            app:layout_constraintTop_toTopOf="@+id/clear_all"
+            app:layout_constraintBottom_toBottomOf="@id/clear_all"
+            app:layout_constraintStart_toEndOf="@id/negate"
+            app:layout_constraintEnd_toStartOf="@+id/subtract"/>
+
+        <Button
+            android:id="@+id/subtract"
+            style="@style/opsCardStyle"
+            android:text="@string/subtract"
+            app:layout_constraintTop_toTopOf="@+id/add"
+            app:layout_constraintBottom_toBottomOf="@+id/add"
+            app:layout_constraintStart_toEndOf="@id/add"
+            app:layout_constraintEnd_toStartOf="@+id/multiply"/>
+
+        <Button
+            android:id="@+id/multiply"
+            style="@style/opsCardStyle"
+            android:text="@string/multiply"
+            app:layout_constraintTop_toTopOf="@+id/add"
+            app:layout_constraintBottom_toBottomOf="@+id/add"
+            app:layout_constraintStart_toEndOf="@id/subtract"
+            app:layout_constraintEnd_toStartOf="@+id/divide"
+            />
+
+        <Button
+            android:id="@+id/divide"
+            style="@style/opsCardStyle"
+            android:text="@string/divide"
+            app:layout_constraintTop_toTopOf="@+id/add"
+            app:layout_constraintBottom_toBottomOf="@+id/add"
+            app:layout_constraintStart_toEndOf="@id/multiply"
+            app:layout_constraintEnd_toStartOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

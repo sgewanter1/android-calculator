@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">12dp</dimen>
+
+    <dimen name="tv_margin">2dp</dimen>
+    <dimen name="tv_text_margin_bottom">10dp</dimen>
+
+    <dimen name="button_text_size">28sp</dimen>
+
+    <!-- Borderless Button dimens-->
+    <dimen name="button_minHeight">155dp</dimen>
+    <dimen name="button_minWidth">215dp</dimen>
+
+    <dimen name="tv_height">200dp</dimen>
+
+    <dimen name="opsCardButtonMinWidth">160dp</dimen>
+    <dimen name="opsCardButtonMinHeight">155dp</dimen>
+
+   <!-- Backspace button padding -->
+    <dimen name="backspaceButtonPadding">18dp</dimen>
+</resources>

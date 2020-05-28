@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Multiple Activities -->
+    <!-- <string name="background_image">background image</string> -->
+    <string name="action_about">About</string>
+    <string name="about_dialog_title">About Calculator</string>
+    <string name="about_dialog_banner"><![CDATA[Created by Shimon Gewanter as a project for MCO 521 at Lander College for Men,\na division of Touro College.\nSpecial thanks to my instructor,\nProf. Samuel A., for all his help.]]></string>
+
+    <!-- Keypad -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="period">.</string>
+    <string name="backspace">⌫</string>
+
+    <string name="negate">+/-</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="square">x²</string>
+    <string name="clear_error">CE</string>
+    <string name="clear_all">C</string>
+
+    <!-- Error strings -->
+    <string name="error_keypad_decimal_point_not_allowed_here">A decimal point cannot be placed here.</string>
+    <string name="error_calc_subtotal_must_not_be_blank_or_zero">Subtotal must be non-zero and non-blank</string>
+
+    <!-- menu strings -->
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_calculate">Calculate</string>
+    <string name="show_leading_zero">Show Leading Zero</string>
+
+    <!-- root preference strings -->
+    <string name="key_show_leading_zero">SHOW LEADING ZERO</string>
+    <string name="default_leading_zero">SHOW LEADING ZERO</string>
+
+    <!-- Snackbar strings -->
+    <string name="show_full_results">Show full results</string>
+
+
+</resources>

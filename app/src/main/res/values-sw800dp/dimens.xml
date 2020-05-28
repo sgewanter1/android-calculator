@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="button_pad_margin">0dp</dimen>
+
+    <dimen name="tv_margin">4dp</dimen>
+    <dimen name="tv_text_margin_bottom">10dp</dimen>
+
+
+    <dimen name="divider_padding">1dp</dimen>
+
+    <dimen name="tv_text_size">150sp</dimen>
+    <dimen name="button_text_size">40sp</dimen>
+
+    <!-- Borderless Button dimens-->
+    <dimen name="button_minHeight">158dp</dimen>
+    <dimen name="button_minWidth">275dp</dimen>
+
+
+    <!-- The numberPad will have its own minimum height and width -->
+    <dimen name="tv_height">265dp</dimen>
+
+    <!-- opsCardDimensions -->
+    <dimen name="opsCardButtonMinWidth">200dp</dimen>
+    <dimen name="opsCardButtonMinHeight">130dp</dimen>
+
+    <!-- Backspace button padding -->
+    <dimen name="backspaceButtonPadding">24dp</dimen>
+
+</resources>

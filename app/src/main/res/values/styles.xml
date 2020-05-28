@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="borderlessButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium.Inverse</item>
+        <item name="android:minHeight">@dimen/button_minHeight</item>
+        <item name="android:minWidth">@dimen/button_minWidth</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:onClick">cmdKeypad</item>
+   </style>
+
+
+    <style name="opsCardStyle">
+        <item name="android:background">@color/operatorButtonColor</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/opsCardButtonMinWidth</item>
+        <item name="android:minHeight">@dimen/opsCardButtonMinHeight</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:onClick">handleOperatorKey</item>
+    </style>
+
+    <style name="coloredTableLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/button_pad_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+        <item name="android:dividerPadding">@dimen/divider_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+    <style name="tableRowButtonBarStyle" parent="Widget.AppCompat.ButtonBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+        <item name="android:dividerPadding">@dimen/divider_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">.8</item>
+    </style>
+
+    <style name="coloredTableLayout.Operator">
+        <item name="android:background">@color/operatorButtonColor</item>
+    </style>
+
+</resources>
